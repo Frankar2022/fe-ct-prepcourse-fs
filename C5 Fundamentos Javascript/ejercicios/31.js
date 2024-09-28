@@ -7,6 +7,13 @@ function elevarAlCuadrado(num) {
   // 6 ---> 36
   // 0 ---> 0
   // Tu código:
+  //Primera forma
+  /*var cuadrado = num ** 2;*/
+  //Segunda forma
+  /*var cuadrado = num * num;*/
+  //Tercera forma
+  var cuadrado = Math.pow(num, 2);
+  return cuadrado;
 }
 
 module.exports = elevarAlCuadrado;
